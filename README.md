@@ -72,7 +72,8 @@ My code for AdventOfCode2021 challenge
             }
        }
 
-// Part One:
+       // Part One:
+
         private fun calculateArea(input: List<String>) {
         var totalX = 0
         var totalY = 0
@@ -98,7 +99,8 @@ My code for AdventOfCode2021 challenge
         areaCovered = totalX * totalY
         }
        
-// Part Two:
+       // Part Two:
+
        private fun calculateArea(input: List<String>) {
         var totalX = 0
         var totalY = 0
