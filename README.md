@@ -56,7 +56,7 @@ My code for AdventOfCode2021 challenge
 
 --- Day 2: Dive! ---
 
-   fun getDirections(isCompleted: Boolean) {
+       fun getDirections(isCompleted: Boolean) {
    
             firebaseManager.getAllDirections {
                 this.isCompleted = isCompleted
@@ -70,10 +70,10 @@ My code for AdventOfCode2021 challenge
                     }
                 }
             }
-    }
+       }
 
 // Part One:
-    private fun calculateArea(input: List<String>) {
+        private fun calculateArea(input: List<String>) {
         var totalX = 0
         var totalY = 0
         val distances = input.slice(1..input.size step 2).map { it.toInt() }
@@ -96,10 +96,10 @@ My code for AdventOfCode2021 challenge
             }
         }
         areaCovered = totalX * totalY
-    }
+        }
        
 // Part Two:
-    private fun calculateArea(input: List<String>) {
+       private fun calculateArea(input: List<String>) {
         var totalX = 0
         var totalY = 0
         var aim = 0
@@ -124,7 +124,7 @@ My code for AdventOfCode2021 challenge
             }
         }
         areaCovered = totalX * totalY
-    }
+        }
 
  // Outputs:
 
