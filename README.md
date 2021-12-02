@@ -48,11 +48,11 @@ My code for AdventOfCode2021 challenge
             }
         }
 
-// Outputs:
+       // Outputs:
 
-// Part One: Your puzzle answer was 1567.
+       // Part One: Your puzzle answer was 1567.
 
-// Part Two: Your puzzle answer was 1529.
+       // Part Two: Your puzzle answer was 1529.
 
 --- Day 2: Dive! ---
 
@@ -128,11 +128,11 @@ My code for AdventOfCode2021 challenge
         areaCovered = totalX * totalY
         }
 
- // Outputs:
+       // Outputs:
 
-// Part One: Your puzzle answer was 2215080.
+       // Part One: Your puzzle answer was 2215080.
        
-// Part Two: Your puzzle answer was 864715580.
+       // Part Two: Your puzzle answer was 864715580.
        
        
  
